@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Send, ArrowLeft, Settings, Sparkles, Key, Smile, Gamepad2, BookOpen, Music, Edit3 } from 'lucide-react';
+import { Send, ArrowLeft, Settings, Key, Gamepad2, BookOpen, Music, Edit3 } from 'lucide-react';
 
 function CreatureChat({ creature, onClose, childName, onRenameCreature, playTone }) {
   const [messages, setMessages] = useState([]);
